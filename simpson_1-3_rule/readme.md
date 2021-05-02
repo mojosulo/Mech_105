@@ -36,5 +36,6 @@ Warning: Using single trapazoidal rule on last 2 points
 - Equally spaced independant variable values
 
 ### Future Improvements:
+- Ability to use with anonymous functions
 - Romberg integration option for calculating error
 - Simpsons 3/8 option

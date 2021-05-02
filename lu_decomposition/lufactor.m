@@ -11,33 +11,6 @@ function [L, U, P] = luFactor(A)
 
 
 
-
-
-%% Prep matrices (leave section out of matlab grader)
-
-A = [10, 2, -1;
-    -3, -6, 2;
-    1, 1, 5];
-% A = zeros(4);
-% A = zeros(2);
-B = [1 2 13 4 ;
-    6 17 8 9 ;
-    10 11 5 1 ;
-    14 15 3 7]
-
-C = [ -2 3 ;
-    4 -2 ]
-
-D = [1 15 8 9 10;
-    4 8 12 6 7;
-    5 7 11 7 8 ;
-    12 2 3 5 6;
-    9 4 2 8 7;
-    ]
-
-A = D;
-
-
 %% Error Handling
 
 
@@ -165,25 +138,4 @@ P
  
 end
 
-
-
-%% call code
-
-% % Solve the system of equations in the form A*x = b
-% %   10*x1 + 2*x2 - x3 = 27
-% %   -3*x1 - 6*x2 + 2*x3 = -61.5
-% %   x1 + x2 + 5*x3 = -21.5
-% % Set up A for the given system
-% A = [10, 2, -1; 
-%     -3, -6, 2;
-%     1, 1, 5];
-% % Set up b
-% b = [27; -61.5; -21.5];
-% % Solve for x
-% x = A\b;
-% 
-% % Test your function
-% [L, U, P] = luFactor(A)
-% 
-% % How can you test the output of your function is correct?
 

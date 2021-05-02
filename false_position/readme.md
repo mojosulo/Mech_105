@@ -2,7 +2,7 @@
 `falseposition.m`
 
 ### Algorithm Overview:
-False position is an algorithm for root finding. 
+<a href="https://en.wikipedia.org/wiki/False_position">False Position</a> is an algorithm for root finding. 
 It requires 2 initial guesses that straddle the root (bounds) and a single variable function to evaluate.
 The algorithm has error checking to make sure the input bounds do infact straddle a root.
 

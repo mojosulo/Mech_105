@@ -12,6 +12,7 @@ are the function evaluated at the bounds
 After each iteration the algorithm evaluates which bound to replace with the last root estimation, thereby gradually converging on the real root.
 The relative approximate error* is calculated at each iteration to determine if the change in values is small enough to justify convergence.
 
+The script also notifies the user if the root guess evaluates at exactly 0 because most functions don't behave _that_ nicely
 
 __Inputs__: 
 

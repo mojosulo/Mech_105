@@ -53,13 +53,3 @@ base2 = flip(list);
 
 
 end
-%% call code
-% base10 = 237
-%
-% base2 = binaryConverter(base10)
-% builtin = dec2bin(base10)
-
-% base2 should be 11101101, but as an array.
-%
-% Try changing the value of base10 to some other numbers.
-% Are base2 and builtin still the same (except that base2 is an array)?

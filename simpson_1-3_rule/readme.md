@@ -1,4 +1,4 @@
-## Simpson's 1/3 Role (numerical integration)
+## Simpson's 1/3 Rule (numerical integration)
 `simpson.m`
 
 ### Algorithm Overview:

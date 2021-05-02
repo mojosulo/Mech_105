@@ -1,4 +1,4 @@
-function [L, U, P] = luFactor(A)
+function [L, U, P] = lufactor(A)
 % luFactor(A)
 %	LU decomposition with pivotiing
 % inputs:

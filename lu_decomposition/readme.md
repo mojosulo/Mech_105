@@ -2,7 +2,8 @@
 `lufactor.m`
 
 ### Algorithm Overview:
-This algorithm finds the <a href="https://en.wikipedia.org/wiki/LU_decomposition">LU decomposition</a>  of the coefficient matrix `A` in a system where `A\B = C`.
+This algorithm finds the <a href="https://en.wikipedia.org/wiki/LU_decomposition">LU decomposition</a>  of the coefficient matrix `A` in a system where `A\B = C`. 
+This is similar to Gaussian redux but for a more specific use.
 
 It can operate on an NxN square matrix, and will pivot by magnitude to reduce the possibility of division by zero error.
 

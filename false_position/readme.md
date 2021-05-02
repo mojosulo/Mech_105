@@ -37,6 +37,22 @@ __Outputs__:
 
 `iter` iteration count
 
+### Sample Usage:
+```
+>> f = @(x) x^2 - 4.5
+>> xl = 1
+>> xu = 4
+>> es = 5  % this will compute root estimate to ea = 5%
+>> falseposition(f,xl,xu,es)
+
+Setting default maxit to 200
+
+Estimated root = 2.07771e+00 
+Function at root = -1.83110e-01 
+Relative approimate error = 4.58468e+00 
+Iteration count = 3
+```
+
 
 ### Limitations:
 - No known

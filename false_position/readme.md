@@ -4,9 +4,9 @@
 ### Algorithm Overview:
 <a href="https://en.wikipedia.org/wiki/False_position">False Position</a> is an algorithm for root finding. 
 It requires 2 initial guesses that straddle the root (bounds) and a single variable function to evaluate.
-The algorithm has error checking to make sure the input bounds do infact straddle a root.
+The algorithm has error checking to make sure the input bounds straddle a root.
 
-The formula for falseposition is `xr = xu - f(xu)*(xl - xu)/(f(xl) - f(xu));` where `xr` is the root estimation, `xu` `xl` are bounds and `f(xu)` `f(xl)` 
+The formula for false position is `xr = xu - f(xu)*(xl - xu)/(f(xl) - f(xu));` where `xr` is the root estimation, `xu` `xl` are bounds and `f(xu)` `f(xl)` 
 are the function evaluated at the bounds
 
 After each iteration the algorithm evaluates which bound to replace with the last root estimation, thereby gradually converging on the real root.
@@ -60,6 +60,6 @@ Iteration count = 3
 
 ### Future Improvements:
 - Condense code
-- adapt to work with `sym` defined function
+- Adapt to work with `sym` defined function
 
 \*Relative approximate error and `es` and `ea` are computed as (new - old)/(new)
